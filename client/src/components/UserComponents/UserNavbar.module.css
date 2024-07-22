@@ -1,0 +1,34 @@
+.navContainer {
+  width: 80px;
+  background-color: var(--color-dark-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  width: 20rem;
+  border-radius: 5px;
+  padding: 20px 0;
+  margin: 38px;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.navContainer div {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-light);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.navContainer div:hover {
+  background-color: var(--color-brand);
+  color: var(--color-dark-0);
+}
+
+.active {
+  background-color: var(--color-brand);
+  color: var(--color-dark-0);
+  border-radius: 5px;
+}

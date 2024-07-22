@@ -1,0 +1,49 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contentWrap {
+  flex: 1;
+}
+
+footer {
+  background-color: var(--color-dark-1);
+  padding: 20px;
+  text-align: center;
+  color: var(--color-light);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.footerText {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--color-light);
+}
+
+.footer p {
+  width: 100%;
+  margin-top: 16px;
+  color: var(--color-light);
+}

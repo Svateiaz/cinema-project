@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "movies": "Filme",
+    "showtimes": "Programări",
+    "profile": "Profilul Meu",
+    "logout": "Deconectare",
+    "signup": "Înregistrare",
+    "login": "Autentificare",
+    "hello": "Salut, {{username}}!",
+    "noNotifications": "Nicio notificare nouă.",
+    "dismiss": "Închide"
+  },
+  "movies": {
+    "title": "Titlu",
+    "genre": "Gen",
+    "duration": "Durata",
+    "description": "Descriere",
+    "releaseDate": "Data Lansării",
+    "rating": "Evaluare",
+    "overview": "Prezentare Generală",
+    "cast": "Actori",
+    "selectDate": "Selectați Data",      
+    "addMovie": "Adăugați Film Nou",
+    "submit": "Trimite",
+    "deleteConfirmation": "Sunteți sigur că doriți să ștergeți filmul",
+    "confirmationResponse": "Da",
+    "comingSoon": "În Curând",
+    "search": "Căutare"
+  },
+  "popup": {
+      "selectRoom": "Selectați Camera"
+  },
+  "booking": {
+    "available": "Disponibil",
+    "reserved": "Rezervat", 
+    "selected": "Selectat",
+    "showtimeDetails": "Detalii Programare",
+    "room": "Cameră",
+    "tickets": "Bilete",
+    "seat": "Loc",
+    "row": "Rând",
+    "column": "Coloană",
+    "totalPrice": "Preț Total",
+    "proceedToPayout": "Continuați La Plată",
+    "paymentDetails": "Detalii Plată",
+    "cardName": "Numele Deținătorului",
+    "cardNumber": "Numărul Cardului",
+    "expirationDate": "Data Expirării",
+    "purchaseTickets": "Cumpărați Bilete",
+    "purchaseTitle": "Vă Mulțumim Pentru Achiziție!",
+    "confirmationFirst": "Transacția dvs. a fost finalizată cu succes. Veți primi un e-mail de confirmare în curând cu detaliile și codul biletului.",
+    "confirmationSecond": "Dacă aveți întrebări sau aveți nevoie de asistență suplimentară, nu ezitați să contactați echipa noastră de suport.",
+    "confirmationThird": "Vizionare plăcută!"
+  },
+  "user": {
+    "myHistory": "Istoricul Meu",
+    "myRatings": "Evaluările Mele",
+    "myBookmarks": "Salvările Mele",
+    "userSettings": "Setări",
+    "title": "Titlu",
+    "showtime": "Programare",
+    "seats": "Locuri",
+    "purchaseDate": "Data Achiziției",
+    "ticketPrice": "Prețul Biletului",
+    "amountPaid": "Suma Plătită",
+    "ticketCode": "Codul Biletului",
+    "myReviews": "Recenziile Mele",
+    "oldPassword": "Parola Veche",
+    "newPassword": "Parola Nouă"
+  }
+}

@@ -1,0 +1,10 @@
+.insertIcon{
+    width: 18px;
+    height: 18px;
+}
+
+.insertIcon:hover{
+    cursor: pointer;
+    scale: 1.1;
+    color: var(--color-brand);
+}

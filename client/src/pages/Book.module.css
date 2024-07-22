@@ -1,0 +1,111 @@
+.seatsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-dark-0);
+  height: 128rem;
+}
+
+.seats {
+  display: grid;
+  gap: 30px; 
+  padding: 50px;
+  align-items: start;
+  background-color: var(--color-dark-1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+}
+
+.screenIndicator {
+  position: relative;
+  width: 100%;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid var(--color-dark-2);
+  margin-bottom: 20px;
+}
+
+.screenText {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.seatsRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.seat {
+  background-color: var(--color-dark-2);
+  color: var(--color-light);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.seat:hover {
+  cursor: pointer;
+  background-color: var(--color-dark-3);
+  transform: scale(1.1);
+}
+
+.seat svg {
+  width: 24px;
+  height: 24px;
+  color: #5BB35F;
+}
+
+.seatIsReserved {
+  pointer-events: none;
+  background-color: var(--color-dark-3);
+}
+
+.seatIsReserved svg {
+  color: #fc4747;
+}
+
+.seatReservingNow svg {
+  color: #FBD738;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.legendItem span {
+  margin-left: 8px;
+  color: var(--color-light);
+  font-size: 14px;
+}
+
+.availableSeatIcon {
+  color: #5BB35F;
+}
+
+.reservedSeatIcon {
+  color: #fc4747;
+}
+
+.selectedSeatIcon {
+  color: #FBD738;
+}

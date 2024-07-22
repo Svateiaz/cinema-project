@@ -1,0 +1,10 @@
+.pageContainer {
+    padding: 20px;
+    background-color: var(--color-darkest);
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .comingSoon {
+    margin-left: 20px;
+  }

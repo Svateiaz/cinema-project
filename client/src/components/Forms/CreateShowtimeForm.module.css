@@ -1,0 +1,28 @@
+.inputContainer{
+    width: 32em;
+    height: 46rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.submitButton{
+    border-radius: 15px;
+    height: 36px;
+
+}
+
+.submitButton:hover{
+    cursor: pointer;
+    color: var(--color-white);
+    background-color: var(--color-brand);
+}
+
+.input{
+    font-size: 16px;
+}
+
+.select{
+    color: var(--color-white);
+    background-color: var(--color-dark-1);
+}

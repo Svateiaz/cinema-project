@@ -1,0 +1,151 @@
+.homeContainer {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.layerImage {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.layerText, .screenText, .buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.textBlock {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.heading {
+  font-size: 3em;
+  margin-bottom: 10px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.subheading {
+  font-size: 1.5em;
+  margin: 0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.buttonsContainer {
+  flex-direction: column;
+}
+
+.button {
+  text-align: center;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #262626;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s, transform 0.3s ease-in-out;
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #262626;
+  border-bottom: 2px solid #262626;
+  transform: scaleY(2);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  transform: scaleY(0);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #fff;
+  border-color: #fff;
+  transform: scale(1.05);
+}
+
+.button:hover:before {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.button:hover:after {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.button:first-child {
+  border: 2px solid #5a698f;
+  background-color: #5a698f;
+}
+
+.button:nth-child(2) {
+  border: 2px solid var(--color-brand);
+  background-color: var(--color-brand);
+}
+
+.buttonTitle {
+  margin-bottom: 16px;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

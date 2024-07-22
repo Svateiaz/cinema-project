@@ -1,0 +1,106 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: var(--color-dark-2);
+  color: var(--color-light);
+  font-size: 16px;
+  transition: border 0.3s, background-color 0.3s;
+}
+
+.input::placeholder {
+  color: #ccc;
+  opacity: 1; 
+}
+
+.input:focus {
+  border: 1px solid var(--color-brand);
+  outline: none;
+  background-color: var(--color-dark-3);
+}
+
+.smallInput {
+  width: 84px
+}
+
+.durationContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: var(--color-dark-2);
+  color: var(--color-light);
+  font-size: 16px;
+  transition: border 0.3s, background-color 0.3s;
+  resize: none;
+  height: 100px;
+}
+
+.button {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color-brand);
+  color: var(--color-light);
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #e65c00;
+  transform: translateY(-2px);
+}
+
+input[type=file] {
+  display: none;
+}
+
+.fileInputContainer {
+  position: relative;
+}
+
+.fileInputContainer label {
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: var(--color-dark-2);
+  color: var(--color-light);
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.fileInputContainer label:hover {
+  background-color: var(--color-dark-3);
+}
+
+
+.fileInputContainer input[type=file]:valid + label::after {
+  content: attr(data-filename);
+  color: var(--color-light);
+}
+
+.dateInputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.select {
+  color: var(--color-light);
+}

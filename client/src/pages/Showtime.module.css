@@ -1,0 +1,90 @@
+.showtimeContainer {
+  padding: 20px;
+}
+
+.datePickerContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.datePicker {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.moviesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.movieCard {
+  background-color: var(--color-dark-1);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.movieDetails {
+  padding: 10px;
+  text-align: center;
+}
+
+.movieCard h3 {
+  margin: 10px;
+  font-size: 20px;
+  color: #ff6600;
+}
+
+.showtimes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.showtimeLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.showtime {
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  background-color: var(--color-dark-2);
+  transition: background-color 0.3s ease;
+}
+
+.showtime:hover {
+  background-color: var(--color-brand);
+  color: var(--color-light);
+}
+
+.time {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.details {
+  font-size: 14px;
+  text-align: center;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px;
+}

@@ -1,0 +1,46 @@
+.deleteIcon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .deleteIcon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .container {
+    width: 300px;
+    padding: 20px;
+    background-color: var(--color-dark-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .confirmationText {
+    color: var(--color-light);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .confirmationButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-brand);
+    color: var(--color-light);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .confirmationButton:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+    color: var(--color-white);
+  }
+  
