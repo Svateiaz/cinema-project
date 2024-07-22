@@ -5,6 +5,7 @@ An application created with MERN Stack (MongoDB, Express, React and Node) and AW
 ## Pictures
 
 * Main Page
+
 ![alt text](image.png)
 
 * Highly reusable modal
@@ -12,21 +13,27 @@ An application created with MERN Stack (MongoDB, Express, React and Node) and AW
 ![alt text](image-1.png)
 
 * Movies' page
+
 ![alt text](image-5.png)
 
 * Showtimes Page
+
 ![alt text](image-2.png)
 
 * Seats overview
+
 ![alt text](image-3.png)
 
 * Payment
+
 ![alt text](image-4.png)
 
 * Notifications
+
 ![alt text](image-6.png)
 
 * User Profile
+
 ![alt text](image-7.png)
 
 ## Features
