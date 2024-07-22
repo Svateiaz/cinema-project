@@ -8,6 +8,7 @@ An application created with MERN Stack (MongoDB, Express, React and Node) and AW
 ![alt text](image.png)
 
 * Highly reusable modal
+
 ![alt text](image-1.png)
 
 * Movies' page
