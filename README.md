@@ -2,6 +2,32 @@
 
 An application created with MERN Stack (MongoDB, Express, React and Node) and AWS S3 to manage a cinema
 
+## Pictures
+
+* Main Page
+![alt text](image.png)
+
+* Highly reusable modal
+![alt text](image-1.png)
+
+* Movies' page
+![alt text](image-5.png)
+
+* Showtimes Page
+![alt text](image-2.png)
+
+* Seats overview
+![alt text](image-3.png)
+
+* Payment
+![alt text](image-4.png)
+
+* Notifications
+![alt text](image-6.png)
+
+* User Profile
+![alt text](image-7.png)
+
 ## Features
 
 * User Authentication: Users can sign up, log in, and log out.
@@ -41,4 +67,4 @@ AWS S3 for storing movie posters and trailers, Nodemailer for sending emails, cr
 * Gmail account
 
 ### Steps
-Will soon update
+Will soon
